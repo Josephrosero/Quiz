@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.i043114.quiz.MainActivity"
+    >
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icons8_cabeza_humana_96" />
+
+            <TextView
+                android:id="@+id/str1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/img1"
+                android:text="@string/str1" />
+
+            <TextView
+                android:id="@+id/str2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/str1"
+                android:layout_toRightOf="@id/img1"
+                android:text="@string/str2" />
+
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img1">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img2"
+                    android:background="@drawable/icons8_persona_de_sexo_masculino_100"
+
+                    />
+                <TextView
+                    android:id="@+id/str3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/str3"
+                    android:layout_toRightOf="@id/img2"
+                    android:text="@string/str3"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:id="@+id/str4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/str3"
+                    android:layout_toRightOf="@id/img2"
+                    android:text="@string/str4" />
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/str4"
+                    android:layout_toRightOf="@id/img2">
+                    <ImageView
+                        android:id="@+id/imglike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icons8_me_gusta_64"
+
+                        />
+                    <TextView
+                        android:id="@+id/str5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/imglike"
+                        android:text="@string/str5"
+                        android:textSize="25dp"
+                        />
+                    <ImageView
+                        android:id="@+id/imgojo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icons8_visible_64"
+
+                        android:layout_toRightOf="@id/str5"
+                        />
+                    <TextView
+                        android:id="@+id/str6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/imgojo"
+                        android:text="@string/str5"
+
+                        android:textSize="25dp"
+
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgmen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icons8_mensaje_48"
+
+                        android:layout_toRightOf="@id/str6"
+                        />
+                    <TextView
+                        android:id="@+id/str7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/imgmen"
+                        android:text="@string/str5"
+
+                        android:textSize="25dp"
+
+                        />
+                </RelativeLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/flt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"
+        android:tint="@android:color/white"/>
+</>
